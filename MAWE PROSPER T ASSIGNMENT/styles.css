@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* Header Section */
+header{
+    width:100%;
+    background-image:url('images/11.jpg');
+    background-repeat:none;
+    background-size:cover;
+    background-position:center;
+    
+}
+
+.header-banner div h1{
+    font-size:55px;
+}
+header nav{
+    padding: 20px 20px;
+    backdrop-filter: brightness(40%);
+}
+header nav > div{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    font-weight:bold;
+}
+
+header nav div > h1{
+    font-size: 15px;
+}
+
+header nav div > a{
+    font-size: 15px;
+    background-color:rgb(219, 21, 21);
+    padding:7px 20px;
+    border-radius:20px;
+    border:none;
+}
+
+header nav div > a:hover{
+    background-color:white;
+    color:tomato;
+}
+
+header .header-banner{
+    padding-bottom:20px;
+    backdrop-filter: brightness(40%);
+}
+header .header-banner div{
+    margin:0 auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    width:46vw;
+    text-align:left;
+    color:white;
+}
+
+header .header-banner div p{
+    font-size: 18px;
+    line-height: 25px;
+}
+header .header-banner div button{
+    font-size: 15px;
+    padding:10px 20px;
+    border-radius:20px;
+    font-weight:bold;
+    background-color:rgb(38, 117, 160);
+    color:white; 
+    border-color:rgb(38, 117, 160);
+    border:none; 
+}
+header .header-banner div button:hover{
+    color:rgb(38, 117, 160);
+    background-color:white; 
+    border-color:rgb(38, 117, 160);
+}
+
+.margin-bottom{
+    margin-bottom:20px;
+}
+
+
+/* Section 2 */
+.second-section{
+    width:100%;
+    overflow:hidden;
+    padding-top:40px;
+}
+.second-section > div{
+    width:80vw;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.second-section > div ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-evenly;
+    width:70%;
+    margin:0 auto;
+}
+.second-section > div ul li{
+    display:block;
+    padding-bottom:40px;
+    padding-top:30px;
+}
+.second-section > div ul li a{
+    font-size: 20px;
+    padding:9px 30px;
+    border-radius:20px;
+    font-weight:bold;
+    border:1px solid rgb(38, 117, 160);
+    color:rgb(38, 117, 160);
+    background-color:white;
+}
+
+.second-section > div ul li a:hover{
+    background-color:rgb(38, 117, 160);
+    color:white; 
+}
+#activebtn{
+    background-color:rgb(38, 117, 160);
+    color:white; 
+    border-color:rgb(38, 117, 160);
+ }
+.second-section > div  h1{
+    font-size:45px;
+    margin-bottom:15px;
+}
+.second-section > div  div{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-top:10px;
+}
+.second-section > div  div img{
+    width:24%;
+    margin-bottom:15px;
+}
+
